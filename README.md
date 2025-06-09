@@ -22,15 +22,11 @@ I searched for an image that included the latest version of Kali Linux. I made s
 - Authentication type: Password (since it's what I’m most comfortable with right now)  
 - Opened port 22 for SSH
 
-📸 `1_kali_vm_created.png`
-
 ---
 
 ### Step 3: Verified It Was Running
 
 After provisioning, I made sure the VM status was “Running” and grabbed the public IP address to connect.
-
-📸 `2_kali_vm_running.png`
 
 ---
 
@@ -39,10 +35,8 @@ After provisioning, I made sure the VM status was “Running” and grabbed the 
 I used my terminal and ran:
 
 ```bash
-ssh feeadmin@20.75.89.168
+ssh feeadmin@<your-ip-address>
 ```
-
-📸 `3_kali_vm_ssh_connected.png`
 
 I entered the password I set during provisioning. Once inside, I used simple commands like `ls` and `uname -a` to confirm I was in a Kali environment.
 
@@ -50,17 +44,20 @@ I entered the password I set during provisioning. Once inside, I used simple com
 
 ## 📸 Screenshots
 
-| # | Description               | File Name                    |
-|---|---------------------------|------------------------------|
-| 1 | VM Created in Azure       | `1_kali_vm_created.png`      |
-| 2 | VM Status Running         | `2_kali_vm_running.png`      |
-| 3 | SSH Connection Successful | `3_kali_vm_ssh_connected.png`|
+| # | Description                              | File Name                          |
+|---|------------------------------------------|------------------------------------|
+| 1 | Browsing for Kali image in Azure         | 1_kali_image_selection.png         |
+| 2 | Selected image details before deploy     | 2_kali_image_selected.png          |
+| 3 | VM deployment in progress                | 3_kali_vm_deployed.png             |
+| 4 | Final deployment screen confirmation     | 4_kali_vm_deployed.png             |
+| 5 | VM running and public IP visible         | 5_kali_vm_running_status.png       |
+| 6 | Successful SSH login into Kali Linux     | 6_kali_vm_logged_in.png            |
 
 ---
 
 ## 📝 Reflection
 
-This lab was more than just setting up a virtual machine. It helped me build comfort with cloud resources, networking ports, and managing Linux systems remotely. It also set the foundation for future hands on hacking labs.
+This lab was more than just setting up a virtual machine. It helped me build comfort with cloud resources, networking ports, and managing Linux systems remotely. It also set the foundation for future hands-on hacking labs.
 
 ---
 
