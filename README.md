@@ -44,14 +44,23 @@ I entered the password I set during provisioning. Once inside, I used simple com
 
 ## 📸 Screenshots
 
-| # | Description                              | File Name                          |
-|---|------------------------------------------|------------------------------------|
-| 1 | Browsing for Kali image in Azure         | 1_kali_image_selection.png         |
-| 2 | Selected image details before deploy     | 2_kali_image_selected.png          |
-| 3 | VM deployment in progress                | 3_kali_vm_deployed.png             |
-| 4 | Final deployment screen confirmation     | 4_kali_vm_deployed.png             |
-| 5 | VM running and public IP visible         | 5_kali_vm_running_status.png       |
-| 6 | Successful SSH login into Kali Linux     | 6_kali_vm_logged_in.png            |
+### 1. Browsing for Kali image in Azure  
+![Browsing Kali image](screenshots/1_kali_image_selection.png)
+
+### 2. Selected image details before deploy  
+![Image selected](screenshots/2_kali_image_selected.png)
+
+### 3. VM deployment in progress  
+![Deployment progress](screenshots/3_kali_vm_deployed.png)
+
+### 4. Final deployment screen confirmation  
+![Final deployment](screenshots/4_kali_vm_deployed.png)
+
+### 5. VM running and public IP visible  
+![VM running](screenshots/5_kali_vm_running_status.png)
+
+### 6. Successful SSH login into Kali Linux  
+![SSH logged in](screenshots/6_kali_vm_logged_in.png)
 
 ---
 
